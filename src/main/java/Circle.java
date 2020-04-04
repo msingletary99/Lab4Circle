@@ -10,10 +10,11 @@
  */
 public class Circle {
     public double radius;
-    public double pi;
+    private double pi =3.14159;
     public double area;
     public double circumference;
     public double diameter;
+    
 
 public void setRadius(double radius){
     this.radius=radius;
@@ -22,14 +23,6 @@ public void setRadius(double radius){
 public double getRadius(){
     return radius;
 
-}
-
-public void setPi(double pi){
-    this.pi=pi;
-}
-
-public double getPi(){
-    return pi;
 }
 
 public double getArea(){

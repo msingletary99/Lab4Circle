@@ -15,17 +15,22 @@ public class Main {
         
         double pi = 3.14159;
         
+        myCircle.setRadius(0.0);
+        
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Please input the radius of your circle.");
         double radius = keyboard.nextDouble();
         myCircle.setRadius(radius);
-        myCircle.setPi(3.14159);
+        
+        System.out.println("============================================");
+        System.out.println("Radius: " + radius);
         double diameter = myCircle.getDiameter();
         System.out.println("Diameter: " + diameter);
         double area = myCircle.getArea();
         System.out.println("Area: " + area);
         double circumference = myCircle.getCircumference();
         System.out.println("Circumference: " + circumference);
+        System.out.println("============================================");
         
         
         
